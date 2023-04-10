@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/passenger-transportation-crm/static/css/main.8b3478fd.css",
+    "main.js": "/passenger-transportation-crm/static/js/main.a185ff7b.js",
+    "index.html": "/passenger-transportation-crm/index.html",
+    "main.8b3478fd.css.map": "/passenger-transportation-crm/static/css/main.8b3478fd.css.map",
+    "main.a185ff7b.js.map": "/passenger-transportation-crm/static/js/main.a185ff7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b3478fd.css",
+    "static/js/main.a185ff7b.js"
+  ]
+}
