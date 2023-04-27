@@ -27,13 +27,6 @@ export const authSlice = createSlice({
   name: 'auth',
   initialState: initialState,
   reducers: {
-    // setUser(state, action) {
-    //   state.user.email = action.payload.email;
-    //   state.user.password = action.payload.password;
-    //   state.user.userName = action.payload.name;
-    //   state.user.id = action.payload.id;
-    //   state.user.token = action.payload.token;
-    // },
     removeUser(state) {
       state.user.email = '';
       state.user.password = '';

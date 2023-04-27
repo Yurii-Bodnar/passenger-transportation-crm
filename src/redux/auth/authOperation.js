@@ -1,4 +1,5 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
+import { correctErrorMessage } from 'helpers/correctErrorMessage';
 import {
   createUserWithEmailAndPassword,
   getAuth,
@@ -26,7 +27,7 @@ export const authRegister = createAsyncThunk(
         userId: user.uid,
       };
     } catch (error) {
-      console.log(error.message);
+      alert(correctErrorMessage(error.message));
       return thunkApi.rejectWithValue(error.message);
     }
   }
@@ -45,9 +46,8 @@ export const authLogin = createAsyncThunk(
         userId: user.uid,
         token: user.accessToken,
       };
-      console.log('User==>', user);
     } catch (error) {
-      console.log(error.message);
+      alert(correctErrorMessage(error.message));
       return thunkApi.rejectWithValue(error.message);
     }
   }

@@ -3,15 +3,15 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { selectToken } from 'redux/auth/authSelectors';
-import css from './Header.module.css';
+import { removeUser } from 'redux/auth/authSlice';
 
 const Header = () => {
   const isAuth = useSelector(selectToken);
+  const dispatch = useDispatch();
   return (
     <>
       {isAuth ? (
@@ -41,6 +41,9 @@ const Header = () => {
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>
+          <button type="button" onClick={() => dispatch(removeUser)}>
+            log out
+          </button>
         </Navbar>
       ) : (
         <Navbar bg="light" expand="expand" className="mb-5 ">
