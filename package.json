@@ -2,7 +2,7 @@
   "name": "passenger-transportation-crm",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Yurii-Bodnar.github.io/passenger-transportation-crm/",
+  "homepage": "https://yurii-bodnar.github.io/passenger-transportation-crm/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
     "@testing-library/jest-dom": "^5.16.5",
