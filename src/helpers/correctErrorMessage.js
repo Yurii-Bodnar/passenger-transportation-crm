@@ -7,7 +7,7 @@ export const correctErrorMessage = text => {
         return ' ';
       }
       if (el === ')') {
-        return;
+        return null;
       }
       return el;
     })

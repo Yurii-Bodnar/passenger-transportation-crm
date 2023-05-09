@@ -26,7 +26,6 @@ const LoginForm = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const isAuth = useSelector(selectToken);
-  const isError = useSelector(state => state.auth.error);
 
   useEffect(() => {
     if (isAuth) {

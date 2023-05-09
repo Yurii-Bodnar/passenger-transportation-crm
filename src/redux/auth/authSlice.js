@@ -51,7 +51,7 @@ export const authSlice = createSlice({
     builder.addCase(authLogin.pending, pendingHandlerAuth);
     builder.addCase(authLogin.rejected, rejectedHandler);
     builder.addCase(authLogin.fulfilled, (state, action) => {
-      //   const { email, password, id, name, accessToken } = action.payload;
+   
       console.log('action', action);
       state.user = {
         email: action.payload.email,
