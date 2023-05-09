@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/passenger-transportation-crm/static/css/main.8b3478fd.css",
-    "main.js": "/passenger-transportation-crm/static/js/main.a185ff7b.js",
+    "main.css": "/passenger-transportation-crm/static/css/main.9585cdb0.css",
+    "main.js": "/passenger-transportation-crm/static/js/main.752898ae.js",
     "index.html": "/passenger-transportation-crm/index.html",
-    "main.8b3478fd.css.map": "/passenger-transportation-crm/static/css/main.8b3478fd.css.map",
-    "main.a185ff7b.js.map": "/passenger-transportation-crm/static/js/main.a185ff7b.js.map"
+    "main.9585cdb0.css.map": "/passenger-transportation-crm/static/css/main.9585cdb0.css.map",
+    "main.752898ae.js.map": "/passenger-transportation-crm/static/js/main.752898ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b3478fd.css",
-    "static/js/main.a185ff7b.js"
+    "static/css/main.9585cdb0.css",
+    "static/js/main.752898ae.js"
   ]
 }
